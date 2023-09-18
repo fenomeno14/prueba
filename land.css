@@ -1,0 +1,46 @@
+.text-light{
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#barrbus {
+    color: black !important;
+}
+
+.text-light,.border-light {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+footer{
+    background-color: black;
+    transform: translate(0px , 50px);
+
+}
+
+#carruseles{
+    transform: translate(40px, 0px);
+}
+
+#inter{
+    transform: translate(40px, 0px);
+}
+
+
+#raptor{
+    transform: translate(450px, -365px);
+}
+
+.carrusel-imagen {
+    height: 200px; /* o el alto que desees */
+    width: auto;   /* mantiene el aspecto de la imagen */
+    object-fit: cover; /* asegura que la imagen cubra el área definida sin estirarse */
+    display: block; /* para eliminar espacio extra en la parte inferior de la imagen */
+    margin: 0 auto; /* para centrar la imagen en el contenedor si no es tan ancha como el contenedor */
+}
+
+#shelby{
+    transform: translate(900px, -731px);
+}
+
+

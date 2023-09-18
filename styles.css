@@ -1,0 +1,91 @@
+body{
+    font-family: 'Bungee';
+    color: black;
+
+}
+header {
+    padding-bottom: calc(50% - 100px);
+    color: white;
+    transform: translate(0px , 20px);
+}
+.bg-yellow {
+    background-image: url(./images/wallpaper.jpg) ;
+    height: 280px;
+    position: absolute;
+    width: 100%; /* Asegurarse de que ocupe todo el ancho */
+    z-index: 1; /* Un valor menor que las tarjetas */
+    top: 0; /* Alinea esto con la parte superior de la página */
+}
+    
+.navbar-yellow {
+    background-color: white;
+    position: relative;
+    z-index: 1000;
+}
+        
+.carrusel-imagen {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Redondea las esquinas de la imagen */
+}
+    
+.card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+        
+.card {
+    transition: all 0.3s ease;
+    border: 1px solid white; 
+    border-radius: 10px; 
+    overflow: hidden;
+}
+    
+.carousel-inner {
+    border-radius: 10px; /* Añade esto para redondear el contenedor del carrusel */
+}
+    
+.container.my-5 {
+    position: relative;
+    top: 100px; 
+    z-index: 10;
+}
+footer{
+    z-index: 1001;
+    text-align: center;
+    transform: translate(0px, 300px);
+}
+
+#botbus{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.text-light,border-light{
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#barrbus {
+    color: black ;
+}
+
+.text-light,.border-light {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#barrbus {
+    border: 1px solid black;
+    color: black;
+}
+
+#barrbus:focus {
+    border: 1px solid black;
+    box-shadow: none;  /* Esto eliminará el sombreado que Bootstrap aplica por defecto a los inputs enfocados */
+}
+
