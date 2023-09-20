@@ -10,9 +10,8 @@
     <title>Formulario</title>
 </head>
 <body>
-
-    <img src="C:\Users\crist\OneDrive\Escritorio\proyectos\images\logoooo.png" alt="logo" id="logo" width="100px" height="100px">
-            <div class="container mt-5">
+    <a class="navbar-brand" href="index.html"><img src="./images/logoooo.png" alt="logo" width="80px" height="45px"></a>
+            <div class="container  col-xs-12 col-sm-12 col-md-8 col-lg-6">
                 <h2>Formulario de Registro</h2>
                 <form>
                     <div class="form-group">
@@ -31,6 +30,10 @@
                         <label for="cedula">Cédula</label>
                         <input type="text" class="form-control" id="cedula" placeholder="Ingresa tu número de cédula">
                     </div>
+                    <div class="form-group">
+                        <label for="cedula">Cédula</label>
+                        <input type="text" class="form-control" id="cedula" placeholder="Ingresa el modelo del carro">
+                    </div>
                     <input type="radio" name="compra"><p>comprar</p>
                     <input type="radio" name="compra"><p>vender</p><br>
                     <button type="button" class="btn btn-primary" id="boton" onclick="enviar()">Enviar</button>
@@ -43,6 +46,5 @@
                     }
                 </script>
             </div>
-            
 </body>
 </html>
